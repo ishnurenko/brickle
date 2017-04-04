@@ -1,0 +1,1038 @@
+.faqx{
+text-align: center;
+float: left;
+padding: 10px;
+margin-top: 10px;
+width: 539px;
+margin-left: 300px;
+}
+.phpsupport{
+margin-top: 20px;
+padding: 10px;
+padding-left: 0px;
+border-right: 1px solid silver;
+width: 320px;
+float: left;
+position: absolute;
+}
+#feedback-form {
+  padding: 10px;
+  color: #7776a2;
+}
+#feedback-form [required] {
+max-height: 85px;
+  width: 300px;
+max-width: 300px;
+  -moz-box-sizing: border-box; box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 1px;
+  overflow: auto;
+  box-shadow: 0 -1px 0 rgba(0,0,0,.05) inset, 0 1px 2px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:hover {
+  box-shadow: 0 0 0 1px #7776a2; inset, 0 1px 2px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #7776a2; inset, 0 1px 2px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+  transition: .2s linear;
+}
+#feedback-form [type="submit"] {
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: #7776a2;
+  color: #fff;
+ width: 300px;
+}
+#feedback-form [type="submit"]:hover {
+  background: white;
+color: #7776a2;
+border: 1px solid #7776a2;
+}
+#feedback-form [type="submit"]:focus {
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+
+ .vklink2{
+position: absolute;
+margin: 0px auto;
+z-index:50;
+margin-top: -286px;
+margin-left: 34px;
+font-size: 13px;
+color: white;
+background: rgba(0,0,0,0.5);
+padding: 6.6px;
+}
+.vklink{
+position: absolute;
+margin: 0px auto;
+z-index:50;
+margin-top: -286px;
+margin-left: 6px;
+color: white;
+background: rgba(0,0,0,0.5);
+padding: 5px;
+}
+.whomarkx:hover{
+border-bottom: 1px solid #7776a2;
+}
+.whomarkx{
+color: #7776a2;
+text-decoration: none;
+}
+.whomark{
+text-align: center;
+font-size: 18px;
+}
+.votedm{
+margin-left: -8px;
+width: 80px;
+font-size: 14px;
+}
+.xmrk{
+width: 60px;
+height: 60px;
+padding: 50px;
+background: #7776a2;
+border-radius: 100px;
+text-align: center;
+color: white;
+font-size: 44px;
+margin-left: 10px;
+float: left;
+}
+.marked{
+padding: 10px;
+float: left;
+}
+.callbtn{
+text-decoration: none;
+color: white;
+background: #7776a2;
+padding: 5px;
+border-radius: 2px;
+padding-left: 46.5px;
+padding-right: 46.5px;
+}
+.callbrate{
+width: 200px;
+margin-top: 5px;
+height: 28px;
+border-radius: 2px;
+border: 1px solid silver;
+margin-bottom: 8px;
+}
+.callrate{
+padding: 10px;
+float: left;
+border-right: 1px solid silver;
+height: 160px;
+}
+.callibph{
+padding: 10px;
+border-radius: 200px;
+height: 160px;
+width: 160px;
+float: left;
+}
+.ontest{
+padding: 4px;
+background: #efefef;
+height: 180px;
+margin-top: 2px;
+}
+.command{
+width: 277px;
+background: #efefef;
+margin-top: 5px;
+margin-left: 2px;
+padding: 10px;
+min-height: 100px;
+float: left;
+}
+#comments{
+position: absolute;
+}
+.select{
+width: 200px;
+text-align: center;
+}
+.chex2 {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.chex2 + label {
+  cursor: pointer;
+}
+
+.chex2:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.chex2:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.chex2:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 4px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.chex2:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+  background: #FFF;
+  box-shadow: 0 1px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+.chex2:checked + label:before {
+  background: #7776a2;
+}
+.chex2:checked + label:after {
+  left: 26px;
+}
+.chex2:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(239,239,239,.5);
+}
+.edit3{
+float: left;
+width: 322px;
+padding: 10px;
+background: #efefef;
+margin-top: 10px;
+}
+.chex {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.chex + label {
+  cursor: pointer;
+}
+
+.chex:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.chex:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.chex:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 4px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.chex:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+  background: #FFF;
+  box-shadow: 0 1px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+.chex:checked + label:before {
+  background: #7776a2;
+}
+.chex:checked + label:after {
+  left: 26px;
+}
+.chex:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(239,239,239,.5);
+}
+.chex3 {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.chex3 + label {
+  cursor: pointer;
+}
+
+.chex3:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.chex3:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.chex3:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 4px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.chex3:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+  background: #FFF;
+  box-shadow: 0 1px 5px rgba(0,0,0,.3);
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+.chex3:checked + label:before {
+  background: #7776a2;
+}
+.chex3:checked + label:after {
+  left: 26px;
+}
+.chex3:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(239,239,239,.5);
+}
+.balancexx {
+    float: left;
+    background: #efefef;
+    width: 205px;
+    margin-left: 3px;
+    padding: 10px;
+    margin-top: 2px;
+    height: 50px;
+}
+.sadd{
+text-decoration: none;
+color: white;
+background: #7776a2;
+padding: 5px;
+float: left;
+margin: 2px;
+height: 47px;
+padding-bottom: 13px;
+    padding-top: 10px;
+}
+.ssave{
+text-decoration: none;
+color: white;
+padding: 10px;
+background: #7776a2;
+margin-left: 153px;
+}
+.xsname{
+float: left;
+width: 100px;
+}
+.xstx{
+width: 200px;
+margin: 0px auto;
+margin-top: px;
+float: left;
+font-family: 'Cuprum', sans-serif;
+font-size: 14px;
+text-align: center;
+}
+.edit2{
+float: left;
+margin: 10px;
+border-right: 1px solid #efefef;
+padding-right: 5px;
+}
+.sbtn{
+margin: 0px auto;
+width: 200px;
+margin-left: 10px;
+border: none;
+background: #7776a2;
+color: white;
+padding: 5px;
+}
+.supload{
+width: 200px;
+color: white;
+margin: 0px auto;
+margin-left: 10px;
+margin-bottom: 5px;
+border: none;
+background: #7776a2;
+font-family: 'Cuprum', sans-serif;
+}
+.edit{
+width: 220px;
+float: left;
+border-right: 1px solid #efefef;
+margin-bottom: 10px;
+}
+.sph{
+margin: 10px;
+border-radius: 200px;
+}
+.nicklive:hover{
+border-bottom: 1px solid black;
+}
+.nicklive{
+color: black;
+text-decoration: none;
+}
+.whoaddlive{
+float: left;
+margin-top: 20px;
+margin-left: 10px;
+}
+.arrow{
+float: left;
+margin-top: 10px;
+padding: 5px;
+}
+.plive{
+float: left;
+border-radius: 100px;
+}
+.livex{
+width: 98%;
+padding: 1%;
+background: #efefef;
+margin-top: 2px;
+min-height: 54px;
+}
+.phh > input[type=file] {
+    display:block;
+    width:200px;;
+    height:200px;;
+    opacity:0;
+margin-top: -200px;
+margin-left: 0px;
+background: black;
+z-index: 34;
+positioN: absolute;
+border-radius: 500px;
+text-align: center;
+}
+.sblock{
+width: 381px;
+float: left;
+height: 206px;
+background: #efefef;
+margin-bottom: 10px;
+padding: 10px;
+text-align: center;
+}
+.verify{
+float: right;
+   margin-left: 510px;
+    margin-right: 0px;
+    margin-top: -230px;
+    position: absolute;
+}
+.zzz{
+margin-top: 10px;
+width: 489px;
+background: #7776a2;
+padding: 5px;
+margin-bottom: 10px;
+position: absolute;
+}
+.llmore{
+margin-top: 10px;
+padding: 5px;
+width: 499px;
+background: #7776a2;
+color :white;
+text-decoration: none;
+border-radius: 3px;
+}
+.allc{
+margin-top: 72px;
+}
+.commnick{
+font-size: 12px;
+float: left;
+}
+.comname{
+float: left;
+}
+.cph{
+    float: left;
+    border: 5px solid #efefef;
+    border-radius: 500px;
+    height: 60px;
+    width: 60px;
+}
+.ucom{
+    width: 460px;
+    margin: 0px auto;
+    margin-left: 10px;
+    margin-top: 5px;
+    background: #efefef;
+    min-height: 70px;
+    padding: 6px;
+    word-wrap:break-word;
+}
+.addc{
+color: white;
+text-decoration: none;
+background: #7776a2;
+padding: 5px;
+float:right; 
+margin-top: 42px;
+margin-right: -1px;
+border-radius: 2px;
+position: absolute;
+margin-left: 332px;
+}
+.cline{
+margin-top: 5px;
+width: 492px;
+background: #7776a2;
+color: white;
+padding: 4px;;
+}
+.txtcomm{
+width: 474px;
+min-width: 474px;
+max-width: 474px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+margin: 0px auto;
+border: 1px solid silver;
+margin-left: 10px;
+margin-top: -13px;
+position: absolute;
+border-radius: 2px;
+}
+.favorite:active{
+background: #7776a2;
+}
+.ms{
+font-size: 14;
+margin-top: -286px;
+float: right;
+padding: 5px;
+margin-right: 10px;
+color: white;
+background: rgba(0,0,0,0.3);
+border-radius: 3px;
+}
+.favorite{
+display:none;
+font-size: 14;
+margin-top: -286px;
+float: right;
+padding: 5px;
+margin-right: 10px;
+color: white;
+background: rgba(0,0,0,0.3);
+border-radius: 3px;
+}
+.comments{
+width: 489px;
+height: 15px;
+padding :10px;
+float: right;
+min-height: 400px;
+margin-top: 290px;
+margin-left: 391px;
+}
+.xxx{
+width: 391px;
+margin: 0px auto
+text-align: center;
+margin-top: 5px;
+background: #7776a2;
+height: 20px;
+padding: 5px;
+}
+.lmore{
+margin: 0px auto;
+padding: 5px;
+background: #7776a2;
+color: white;
+text-decoration: none;
+}
+.waphoto{
+float: left;
+height: 52px;
+}
+.whoadd{
+width:98%;
+padding: 1%;
+background: #efefef;
+height: 53px;
+}
+.history{
+margin-top: 5px;
+width: 98%;
+background: #7776a2;
+color: white;
+padding: 1%;
+}
+.myrate{
+margin: 0px auto;
+color: white;
+font-size: 24px;
+width: 80px;
+text-align: center;
+margin-top: -37px;
+margin-left: 526px;
+background: rgba(0,0,0,0.5);
+padding: 5px;
+border-radius: 5px;
+position: absolute;
+}
+.rating{
+width: 400px;
+min-height: 75px;
+border-right: 1px solid #efefef;
+}
+.bodyprofile{
+width: 900px;
+margin: 0px auto;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.xnick{
+margin: 0px auto;
+width: 334px;
+text-align: center;
+color: white;
+margin-top: 5px;
+border-radius: 2px;
+background: rgba(0,0,0,0.4);
+}
+.plsb{
+text-decoration: none;
+color: white;
+margin-left: 9px;
+font-size: 36px;
+}
+.pls{
+background: #7776a2;
+width: 40px;
+height: 40px;
+border-radius: 500px;
+position: absolute;
+margin-top: -100px;
+margin-left: 494px;
+border: 2px solid white;
+font-family: Arial;
+}
+.xnamex{
+margin: 0px auto;
+color: white;
+font-size: 24px;
+width: 230px;
+text-align: center;
+margin-top: 14px;
+margin-right: 377px;
+background: rgba(0,0,0,0.5);
+padding: 5px;
+border-radius: 5px;
+}
+.phh{
+margin: 0px auto;
+width: 200px;
+height: 200px;
+padding-top: 20px;
+}
+.dd{
+margin: 0px auto;
+height: 100px;
+width: 1124px;
+display: none;
+}
+.hh{
+margin: 0px auto;
+height: 70px;
+width: 1024px;
+}
+.bb{
+width: 900px;
+min-height: 615px;
+margin: 0px auto;
+margin-top: -2px;
+}
+.customize{
+width: 900px;
+height: 300px;
+background: white;
+background-image: url(img/bg.jpg); 
+background-position: center center;
+background-repeat: no-repeat;
+margin: 0px auto;
+background-size: cover;
+z-index: 2;
+}
+.mini_info{
+width: 160px;
+float: right;
+}
+.mybalance{
+float: right;
+font-size: 14px;
+}
+.myname{
+float: right;
+margin-top: 15px;
+}
+.myphoto{
+float: right;
+padding: 10px;
+border-radius: 500px;
+    height: 50px;
+    width: 50px;
+}
+.dlink:hover{
+border-bottom: 1px solid #7776a2;;
+}
+.dlink{
+color: #7776a2;
+text-decoration: none;
+}
+.down{
+text-align: center;
+color: white;
+width: 1124px;
+background: #7776a2;
+height: 100px;
+margin: 0px auto;
+margin-top: 5px;
+box-shadow: 0 0 5px rgba(0,0,0,0.9);
+position: absolute;
+}
+.search{
+position: absolute;
+display: none;
+    color: #7776a2;
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 180px;
+    text-margin: 2px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    height: 29px;
+    font-family: 'Cuprum', sans-serif;
+}
+.xload{
+display:none;
+margin: 0px auto;
+padding-top: 370px;
+margin-left: 436px;
+padding-bottom: 10px;
+}
+.loadmore:hover{
+background: white;
+color: #908fb3;
+border: 2px solid #908fb3;
+padding: 4px;
+}
+.loadmore{
+margin: 0px auto;
+text-decoration: none;
+color: white;
+background: #908fb3;
+padding: 6px;
+border-radius: 4px;
+margin-left: -10px;
+}
+.line{
+with: 98%;
+padding-left: 1%;
+padding-right: 1%;
+background: #8483ab;
+text-align: center;
+margin-top: 0px;
+color: white;
+border-radius: 2px;
+font-size: 20px;
+margin-top: 2px;
+}
+.log{
+float: right;
+margin-top: 14px;
+margin-right: 14px;
+padding: 10px;
+color: white;
+text-decoration: none;
+background: white;
+border-radius: 3px;
+color: #7776a2;
+}
+.logo{
+font-size: 24px;
+margin-left: 20px;
+margin-top: 20px;
+width: 70px;
+height: 50px;
+background-position: center-center;
+background-repeat: no-repeat;
+float: left;
+}
+.nick{
+display: none;
+text-align: center;
+margin-left: -5px;
+}
+.topez{
+margin: 0px auto;
+width: 950px;
+height: auto;
+position: relative;
+min-height: 390px;
+}
+.pluses{
+display: none;
+text-align: center;
+}
+.user:hover .nick{
+display:block;
+margin-top:2px;
+height:30px;
+color: black;
+}
+.user:hover .pluses{
+display:block;
+margin-top:-110px;
+height:30px;
+color: black;
+font-size: 36px;
+}
+.photo:hover{
+opacity: 0.2;
+}
+.user{
+width: 190px;
+height: 172px;
+float: left;
+}
+.plus{
+background: #7776a2;
+width: 40px;
+height: 40px;
+border-radius: 500px;
+position: absolute;
+margin-top: -54px;
+margin-left: 130px;
+border: 2px solid white;
+font-family: Arial;
+}
+.plusbutton{
+text-decoration: none;
+color: white;
+margin-left: 9px;
+font-size: 36px;
+}
+.body{
+width: 900px;
+margin: 0px auto;
+min-height: 300px;
+position: absolute;
+}
+.photo{
+margin: 10px;
+border-radius: 150px;
+}
+.head{
+width: 1024px;
+height: 70px;
+background: #7776a2;
+margin: 0px auto;
+color: white;
+box-shadow: 0 0 5px rgba(0,0,0,0.9);
+position: absolute;
+z-index: 20;
+margin-top: -20px;
+}
+body{
+margin: 0px auto;
+color: black;
+background: white;
+font-family: 'Cuprum', sans-serif;
+background-position: center center;
+}
+
+.menux{
+ border: 1px solid #efefef;
+ width: 160px;
+ height: 150px;
+ display: none;
+background: #efefef;
+color: black;
+border-radius: 1px;
+z-index: 25;
+padding: 10px;
+position: absolute;
+box-shadow: 0 0 5px rgba(0,0,0,0.3);
+text-align: center;
+margin-left: 842px;
+margin-top: 66px;
+ }
+.menux::after{
+content: ''; 
+    position: absolute;
+    right: 20px; top: -20px;
+    border: 10px solid transparent;
+    border: 10px solid transparent;	
+    border-bottom: 13px solid #efefef;
+}
+.xmm:hover{
+background: #F6F6F6;
+border-left: 3px solid #7776a2;
+}
+.xmm{
+width: 88%;
+padding: 10px;
+border-radius: 0px;
+border-left: 3px solid #ededed;
+}
+.xm{
+color: black;
+text-decoration: none;
+text-align: center;
+paddin-left: 20px;
+padding-right: 20px;
+margin-left: 20px;
+}
+
+
+.modalDialog {
+		position: fixed;
+		font-family: Arial, Helvetica, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		display: none;
+		pointer-events: none;
+	}
+
+	.modalDialog:target {
+		display: block;
+		pointer-events: auto;
+	}
+
+	.modalDialog > div {
+		width: 500px;
+		position: relative;
+		margin: 10% auto;
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		background: #7776a2;
+		color: white;
+		text-align: center;
+	}
+
+	.close {
+		background: #606061;
+		color: #FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 1px 3px #000;
+		-webkit-box-shadow: 1px 1px 3px #000;
+		box-shadow: 1px 1px 3px #000;
+	}
+
+		.close:hover { background: #7776a2; }
+.ar{
+text-decoration: none;
+color: #7776a2;
+font-size: 42px;
+font-align: center;
+}
+.aratex{
+    width: 82px;
+    height: 82px;
+    margin: 0px auto;
+    margin-left: 0px;
+    border: none;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    color: #7776a2;
+    border-radius: 100px;
+margin-top: -60px;
+margin-left: -40px;
+z-index: 9999999999;
+position: absolute;
+border: 2px solid #7776a2;
+}
+.addone{padding:11px; background: red; text-decoration: none; color: #7776a2; background: white; border-radius: 3px;}
+.addone:hover{background: #7776a2; color: white; border: 1px solid white; padding: 10px;};
+
+.arrz{
+margin: 0px auto;
+    background: white;
+    height: 46px;
+    width: 46px;
+    border-radius: 1000px;
+    float: right;
+    z-index: 9;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -40px;
+    border: 2px solid #7776a2;
+    text-align: right;
+}
+.arrx{
+margin: 0px auto;
+    background: white;
+    height: 46px;
+    width: 46px;
+    border-radius: 1000px;
+    float: left;
+    z-index: 9;
+    position: absolute;
+    margin-left: 183px;
+    margin-top: -40px;
+    text-align: left;
+    border: 2px solid #7776a2;
+}
+.centr{
+width: 1024px;
+    margin: 0px auto;
+}
